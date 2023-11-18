@@ -56,7 +56,7 @@ ol {
 }
 
 .result__video-container {
-  width: 711px; 
+  width: 711px;
   position: relative;
 }
 
@@ -138,7 +138,7 @@ ol {
 
 .search-form__label-text {
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -281,6 +281,7 @@ ol {
   flex-direction: column;
   align-items: flex-start;
   gap: 26px;
+  min-height: 534px;
 }
 
 .content__list {
@@ -302,7 +303,7 @@ ol {
   justify-content: space-between;
 }
 
-.content__video-card:active {
+.content__card-link:active {
   background-color: #545050;
 }
 
