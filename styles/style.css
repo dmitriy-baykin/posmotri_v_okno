@@ -16,11 +16,10 @@ html {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: 0 30px;
-  max-width: 1000px;
+  padding: 133px 30px;
 }
 
 h1,
@@ -43,21 +42,23 @@ ol {
 }
 
 .content {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+  width: 100%;
   align-items: end;
-  gap: 30px;
-  max-width: 1140px;
+  column-gap: 30px;
 }
 
 .result {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+  max-width: 711px;
 }
 
 .result__video-container {
-  width: 711px;
   position: relative;
+  width: 711px;
+  height: 386px;
+  margin-bottom: 16px;
 }
 
 .result__video {
